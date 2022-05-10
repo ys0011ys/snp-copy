@@ -33,6 +33,17 @@
       vertical: false,
     });
 
+    $(".inst-imgs").slick({
+
+      slide: "div",
+      slidesToShow: 5,
+      speed: 1000,
+      arrows: true,
+      autoplay: false,
+      autoplaySpeed: 1000,
+      vertical: false,
+    });
+
 
 
   });
