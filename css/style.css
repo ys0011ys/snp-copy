@@ -33,11 +33,11 @@ a {
   top: 0;
   z-index:9999;  
 }
-/* logo-box 시작 */
+/* 1번쨰 단락) logo-box 시작 */
 .logo-box {
   width: 100px;
   height: 70px;
-  margin-left: 10px;
+  margin-left: 20px;
 }
 .logo-box > .logo {
   width: 100%;
@@ -45,14 +45,14 @@ a {
   position: relative;
 }
 .logo-box > .logo > img {
-  width: 85px;
-  height: 85px;
+  width: 83px;
+  height: 83px;
   position: absolute;
-  top: -5px;
+  top: 0px;
   left: 0;
 }
 .logo-box > .shop {
-  margin-top: 40px;
+  margin-top: 35px;
   font-size: 19px;
   font-weight: bold;
 }
@@ -62,8 +62,8 @@ a {
   height: 85%;
   left: 0px;
   top: 0px;
-  padding: 10px;
-  padding-top: 150px;  
+  padding: 20px;
+  padding-top: 145px;  
 }
 .logo-box > .btn > .icon-btn {
   cursor: pointer;
@@ -75,8 +75,19 @@ a {
   display: block;
   margin: 4px;
 }
-/* logo-box 끝*/
-/* manu-box 시작*/
+/*1번쨰 단락) logo-box 끝*/
+/*1번쨰 단락) icon-box 시작*/
+.icon-box { 
+  height: 70px;
+}
+.icon-box > .icon > ul > li > img {
+  width: 26px;
+  height: 26px;
+  margin-right: 30px;
+  margin-top: 20px;
+}
+/*1번쨰 단락) icon-box 끝*/
+/*1번쨰 단락) manu-box 시작*/
 .logo-box > .btn > .nav {
   opacity: 0;
   visibility: hidden;
@@ -100,36 +111,8 @@ a {
 .btn > .nav > .manu-box > ul > li > ul > li > a {
   font-size: 17px;
 }
-/* manu-box 끝*/
-/* manu-box 시작*/
-.logo-box > .btn.active > .nav {
-  display: block;
-}
-.btn > .nav > .manu-box > ul > li {
-  padding-bottom: 30px;
-}
-.btn > .nav > .manu-box > ul > li > a {
-  font-size: 24px;
-}
-.btn > .nav > .manu-box > ul > li > ul > li {
-  padding-top: 10px;
-}
-.btn > .nav > .manu-box > ul > li > ul > li > a {
-  font-size: 17px;
-}
-/* manu-box 끝*/
-/* icon-box 시작*/
-.icon-box { 
-  height: 70px;
-}
-.icon-box > .icon > ul > li > img {
-  width: 26px;
-  height: 26px;
-  margin-right: 30px;
-  margin-top: 20px;
-}
-/* icon-box 끝*/
-/* 베너 시작 */
+/*1번쨰 단락) manu-box 끝*/
+/*2번쨰 단락) 베너 시작 */
 .banner {
   width: 100%;
 }
@@ -221,7 +204,8 @@ a {
   color: #000;
   font-size: 16px;
 }
-/* 프레스바 시작 */
+/*2번쨰 단락) 베너 끝 */
+/*3번쨰 단락) 프레스바 시작 */
 .presbar-wrap{
   width: 100%;
   height: 718px;
@@ -277,5 +261,138 @@ a {
   color: #000;
   font-weight: 600;
 }
-
-/* 프레스바 끝 */
+/*3번쨰 단락) 프레스바 끝 */
+/*4번쨰 단락) 스크롤 시작 */
+.scroll-wrap{
+  width: 100%;
+  height: 2907px;
+}
+.scroll-wrap > .left-box{
+  width: 50%;
+  height: 2907PX;
+  padding: 0   0  0 20PX;
+  box-sizing: border-box;  
+}
+.scroll-wrap > .left-box > .setion{
+  width: 100%;
+  height: 969px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.scroll-wrap > .left-box > .setion > .title{
+  width: 100%;
+  text-align: center;
+  font-size: 45px;
+  margin-bottom: 70px;
+}
+.scroll-wrap > .left-box > .setion > .title > p{
+  font-size: 18px;
+  padding-top: 5px;
+}
+.scroll-wrap > .left-box > .setion > .img-box{
+  margin: 0 auto;
+}
+.scroll-wrap > .left-box > .setion > .more{
+  margin-top: 85px;
+  text-align: center;
+}
+.scroll-wrap > .left-box > .setion > .more > a{  
+  font-size: 16px;
+  color: #000;  
+}
+.scroll-wrap > .right-box{
+  width: 50%;
+  position: relative;
+  top: 0;
+}
+.scroll-wrap > .right-box > .img-box > img{
+  height: 969px;
+}
+/*4번쨰 단락) 스크롤 끝 */
+/*5번쨰 단락) 아이패치 시작 */
+.eyepatch-wrap{
+  width: 100%;
+  height: 969px;
+}
+.eyepatch-wrap > .left{
+  width: 50%;
+  height: 969px;
+}
+.eyepatch-wrap > .left > img{
+  width: 100%;
+  height: 969px;
+}
+.eyepatch-wrap > .right{
+  height: 100%;
+  width: 50%;
+  background-color: #f7f6f2;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  border-radius: 0 0 20% 0;
+}
+.eyepatch-wrap > .right > .title > h2{
+  font-size: 42px;
+  color: #000;
+  line-height: 1;
+  margin-bottom: 30px;
+}
+.eyepatch-wrap > .right > .title > p{
+  font-size: 17px;
+  color: #000;
+  margin-bottom: 80px;
+}
+.eyepatch-wrap > .right > ul {
+  display: flex;
+  justify-content: center;
+}
+.eyepatch-wrap > .right > ul > li {
+  margin: 0 50px;
+  position: relative;
+  cursor: pointer;
+}
+.eyepatch-wrap > .right > ul > li > img{
+  position: relative;
+  transition: .5s;
+  width: 100%;
+}
+.eyepatch-wrap > .right > ul > li > img:hover {
+  position: relative;
+  width: 110%;
+}
+.eyepatch-wrap > .right > ul > li > p {
+  display: block;
+  color: #000;
+  margin-top: 20px;
+  font-size: 17px;
+}
+/*5번쨰 단락) 아이패치 끝 */
+/*6번쨰 단락) 인스타그램 시작 */
+.instagram-wrap{
+  width: 100%;
+  position: relative;
+  margin: 120px ;
+  transition:  .5s;
+  background: #fff;
+  border-radius: 0 0 0 20%; 
+}
+.instagram-wrap > .inst-title{
+  text-align: center;
+  width: calc(100% - 40px);
+  margin: 0 auto;
+  display: flex;
+  font-size: 50px;
+  color: #000;
+}
+.instagram-wrap > .inst-title > h3{
+  font-weight: 500;
+  padding-left: 110px;
+}
+.instagram-wrap > .inst-imgs{
+  position: relative;
+  height: auto;
+  margin-top: 50px;
+}
+/*6번쨰 단락) 인스타그램 끝 */
